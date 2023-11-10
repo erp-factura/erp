@@ -1,3 +1,9 @@
+<?php 
+	session_start();
+
+	$uid = $_SESSION['UID'];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
